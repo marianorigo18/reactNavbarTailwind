@@ -1,16 +1,46 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="w-full bg-gray-700">
-      <div className="container sm bg-slate-300 mx-auto py-1 flex justify-between">
-        <h1 className="text-orange-600 text-4xl font-bold">Hello</h1>
-        <input type="text" className="w-96 px-2" placeholder="busca productos..."></input>
-        <ul className="flex w-96 bg-slate-600 font-bold justify-between text-yellow-200">
-          <li>web</li>
-          <li>web</li>
-          <li>web</li>
-        </ul>
-      </div>
+    <>
+    <Navbar></Navbar>
+    <h1 className="text-center text-5xl mb-5">Grid</h1>
+    <div className="container mx-auto grid grid-cols-3 gap-4 my-2">
+      <div className="bg-yellow-400">A</div>
+      <div className="bg-red-500">B</div>
+      <div className="bg-green-400">C</div>
+      <div className="bg-blue-400">D</div>
     </div>
+    <h1 className="text-center text-5xl mb-5">Grid responsive</h1>
+    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 my-2">
+      <div className="bg-yellow-400">A</div>
+      <div className="bg-red-500">B</div>
+      <div className="bg-green-400">C</div>
+      <div className="bg-blue-400">D</div>
+    </div>
+    <h1 className="text-center text-5xl mb-5">Grid other</h1>
+    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 my-2">
+      <div className="bg-yellow-400 col-span-2">A</div>
+      <div className="bg-red-500">B</div>
+      <div className="bg-green-400">C</div>
+      <div className="bg-blue-400 col-span-4">D</div>
+    </div>
+    <h1 className="text-center text-5xl mb-5">Grid twelve colums</h1>
+    <div className="container mx-auto grid grid-cols-12 gap-4 my-2">
+      <div className="bg-yellow-400">A</div>
+      <div className="bg-red-500">B</div>
+      <div className="bg-green-400">C</div>
+      <div className="bg-blue-400">D</div>
+      <div className="bg-yellow-400">A</div>
+      <div className="bg-red-500">B</div>
+      <div className="bg-green-400">C</div>
+      <div className="bg-blue-400">D</div>
+      <div className="bg-yellow-400">A</div>
+      <div className="bg-red-500">B</div>
+      <div className="bg-green-400">C</div>
+      <div className="bg-blue-400">D</div>
+    </div>
+    </>
   );
 }
 
