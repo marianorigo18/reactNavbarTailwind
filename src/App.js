@@ -4,7 +4,7 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <h1 className="text-center text-5xl mb-5">Grid</h1>
+    <h1 className="text-center text-5xl mb-5 pt-20">Grid</h1>
     <div className="container mx-auto grid grid-cols-3 gap-4 my-2">
       <div className="bg-yellow-400 h-56">A</div>
       <div className="bg-red-500 h-56">B</div>
@@ -62,21 +62,6 @@ function App() {
       <div className="h-56 bg-green-400">C</div>
       <div className="h-56 bg-blue-400">D</div>
       <div className="h-56 bg-yellow-400 col-start-3">A</div>
-      <div className="h-56 bg-red-500">B</div>
-      <div className="h-56 bg-green-400">C</div>
-      <div className="h-56 bg-blue-400">D</div>
-      <div className="h-56 bg-yellow-400">A</div>
-      <div className="h-56 bg-red-500">B</div>
-      <div className="h-56 bg-green-400">C</div>
-      <div className="h-56 bg-blue-400">D</div>
-    </div>
-    <h1 className="text-center text-5xl mb-5">Grid row start</h1>
-    <div className="container mx-auto grid gap-4 my-2">
-      <div className="h-56 bg-yellow-400 row-span-6">A</div>
-      <div className="h-56 bg-red-500">B</div>
-      <div className="h-56 bg-green-400">C</div>
-      <div className="h-56 bg-blue-400">D</div>
-      <div className="h-56 bg-yellow-400">A</div>
       <div className="h-56 bg-red-500">B</div>
       <div className="h-56 bg-green-400">C</div>
       <div className="h-56 bg-blue-400">D</div>
