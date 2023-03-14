@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 import ContainerList from "./components/ItemListContainer"
+import Modal from "./components/Modal";
 
 function App() {
   return (
