@@ -16,14 +16,14 @@ function App() {
     <Modal
       state={stateModal1}
       change={setStateModal}
-      title='Hello i´m dinamic'
+      title='Hello im dinamic'
     >
     </Modal>
     {/*Modal #2*/}
     <Modal
       state={stateModal2}
       change={setStateModal2}
-      title='Hello i´m dinamic 2'
+      title='Hello im dinamic 2'
     >
     </Modal>
     {/*Modal #3*/}
@@ -31,7 +31,7 @@ function App() {
       state={stateModal3}
       change={setStateModal3}
       image={'https://fastly.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4'}
-      title='Hello i´m dinamic 2'
+      title='Hello im dinamic 2'
     >
     </Modal>
     <ContainerList>
