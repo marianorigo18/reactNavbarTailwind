@@ -36,10 +36,10 @@ function App() {
     </Modal>
     <ContainerList>
     <div className="container mx-auto grid gap-4 grid-cols-3">
-      <div className="h-36 sm:h-56 bg-red-200" onClick={() => setStateModal(!stateModal1)}></div>
-      <div className="h-36 sm:h-56 bg-red-300 col-span-2 grid grid-cols-2 gap-1" onClick={() => setStateModal2(!stateModal2)}>
+      <div className="h-36 sm:h-56 bg-red-200 cursor-pointer" onClick={() => setStateModal(!stateModal1)}></div>
+      <div className="h-36 sm:h-56 bg-red-300 col-span-2 grid grid-cols-2 gap-1 cursor-pointer" onClick={() => setStateModal2(!stateModal2)}>
       </div>
-      <div className="h-36 sm:h-56 bg-red-400 col-span-2" onClick={() => setStateModal3(!stateModal3)}></div>
+      <div className="h-36 sm:h-56 bg-red-400 col-span-2 cursor-pointer" onClick={() => setStateModal3(!stateModal3)}></div>
       <div className="h-36 sm:h-56 bg-red-500"></div>
       <div className="h-36 sm:h-56 bg-blue-200"></div>
       <div className="h-36 sm:h-56 bg-red-300 col-span-2"></div>

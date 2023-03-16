@@ -7,7 +7,7 @@ function Modal({children, state, change, title = 'Alert', image = 'https://fastl
         <div className='flex items-center justify-between mb-5 pb-5'>
           <h1 className='text-lg'>{title}</h1>
         </div>
-          <button className='text-lg absolute right-5 top-2'onClick={() => change(false)}>x</button>
+          <button className='text-2xl absolute right-5 top-2 p-1'onClick={() => change(false)}>x</button>
         <div className='flex flex-col items-center'>
           <h1 className='text-4xl font-bold mb-2.5'>{children}</h1>
           <p className='text-xl mb-2.5'>{children}</p>
